@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title The Pupcake Collection
+        include stylesheets.pug
+    body
+        include nav.pug
+        h2 About Us
+        img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCx9l6dGejMuEyAsmeBdSYlicdscDc1QBVY9VqJLulmthLHaey')
+        p
+        |Our founder emerged straight from a video game and into the real world with a kick-ass set of elvish cupcake recipes for dogs.
+        - let newDate=new Date()
+        p
+        |Today's date is #{newDate}
